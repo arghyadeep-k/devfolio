@@ -5,21 +5,26 @@ import BlogPosts from '../components/blog-posts';
 import Header from '../components/header';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import NotFound from '../pages/404';
 
 const Index = ({ data }) => {
   const posts = data.allMarkdownRemark.edges;
+  const noBlog = !posts || !posts.length;
 
-  if (!posts || !posts.length) {
+  //if (!posts || !posts.length) {
+  if(true){
     // Send them home
-    window.location.replace(`/`);
-    return null;
+    // window.location.replace(`/`);
+    // return null;
+    return <NotFound />;
   }
 
   return (
     <Layout>
       <SEO />
       <Header metadata={data.site.siteMetadata} />
-      {posts && posts.length && <BlogPosts posts={posts} />}
+      {!noBlog && <BlogPosts posts={posts} />}
+      {/* {posts && posts.length && <BlogPosts posts={posts} />} */}
     </Layout>
   );
 };
