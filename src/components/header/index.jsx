@@ -21,6 +21,8 @@ const Header = ({ metadata = {}, noBlog = false }) => {
   const twitter = get(metadata, 'author', false);
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
+  const mastodon = get(metadata, 'mastodon', false);
+  const codeberg = get(metadata, 'codeberg', false);
 
   return (
     <div className={classes.wrapper}>
@@ -35,6 +37,13 @@ const Header = ({ metadata = {}, noBlog = false }) => {
         </h1>
         <p className={classes.description}>{metadata.description}</p>
         <ul className={classes.list}>
+          {mastodon && (
+            <li className={classes.item}>
+              <a className={classes.link} href={mastodon}>
+                Mastodon
+              </a>
+            </li>
+          )}
           {twitter && (
             <li className={classes.item}>
               <a
@@ -49,6 +58,13 @@ const Header = ({ metadata = {}, noBlog = false }) => {
             <li className={classes.item}>
               <a className={classes.link} href={github}>
                 GitHub
+              </a>
+            </li>
+          )}
+          {codeberg && (
+            <li className={classes.item}>
+              <a className={classes.link} href={codeberg}>
+                Codeberg
               </a>
             </li>
           )}
