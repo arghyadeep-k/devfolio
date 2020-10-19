@@ -1,25 +1,18 @@
 module.exports = {
   siteMetadata: {
-    // Site URL for when it goes live
     siteUrl: `https://arghya.netlify.app/`,
-    // Your Name
-    name: 'Arghyadeep Kundu',
-    // Main Site Title
-    title: `Arghyadeep - Portfolio`,
-    // Description that goes under your name in main bio
-    description: `DevOps Engineer | Opensource Enthusiast & Contributor | Bibliophile`,
-    // Optional: Twitter account handle
+    name: 'Arghyadeep Kundu',    
+    title: `Arghyadeep - Portfolio`,    
+    description: `DevOps Engineer | Opensource Enthusiast & Contributor | Bibliophile`,    
     author: `@arghyadeep_k`,
-    // Optional: Github account URL
-    github: `https://github.com/arghyadeep-k`,
-    // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/arghyadeep-kundu/`,
-
+    github: `https://github.com/arghyadeep-k`,    
+    linkedin: `https://www.linkedin.com/in/arghyadeep-kundu`,
     mastodon: `https://fosstodon.org/@arghyadeep`,
     codeberg: `https://codeberg.org/arghyadeep`,
+    mail: `mailto:arghyadeep.k@gmail.com`,
 
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `.NET Developer turned DevOps Engineer. Developing CI/CD solutions for a major automobile company in the US. Working on opensource softwares on weekends. Reading books📖 when taking a break from the screen.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -42,21 +35,16 @@ module.exports = {
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
-    experience: [
+    experience: [      
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Hexaware Technologies Ltd.',
+        description: 'DevOps Engineer, July 2019 - Present',
+        link: 'https://hexaware.com',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Cognizant Technology Solutions',
+        description: '.NET Developer, August 2016 - July 2019',
+        link: 'https://cognizant.com',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.

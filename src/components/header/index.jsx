@@ -23,6 +23,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
   const linkedin = get(metadata, 'linkedin', false);
   const mastodon = get(metadata, 'mastodon', false);
   const codeberg = get(metadata, 'codeberg', false);
+  const mail = get(metadata, 'mail', false);
 
   return (
     <div className={classes.wrapper}>
@@ -80,6 +81,13 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               <Link className={classes.link} to="/blog">
                 Blog
               </Link>
+            </li>
+          )}
+          {mail && (
+            <li className={classes.item}>
+              <a className={classes.link} href={mail}>
+                Mail
+              </a>
             </li>
           )}
         </ul>

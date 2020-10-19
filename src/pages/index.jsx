@@ -49,6 +49,7 @@ export const pageQuery = graphql`
         github
         codeberg
         linkedin
+        mail
         projects {
           name
           description
