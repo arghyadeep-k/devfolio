@@ -1,9 +1,9 @@
 import React from 'react';
 
 const classes = {
-  wrapper: 'p-8 relative max-w-screen-xl xs:p-24',
-  outerWrapper: 'relative',
-  svg: 'hidden fixed transform right-0 top-5 z-0 xl:block',
+  wrapper: 'p-8 relative bg-gray-900 max-w-screen-xl xs:p-24',
+  outerWrapper: 'relative bg-gray-900',
+  svg: 'hidden fixed transform bg-gray-900 right-0 top-5 z-0 xl:block',
 };
 
 const Layout = ({ children }) => {
@@ -30,8 +30,8 @@ const Layout = ({ children }) => {
               y="0"
               width="4"
               height="4"
-              className="text-gray-200"
-              fill="#edf2f7"
+              className="text-gray-900"
+              fill="#1a202c"
             />
           </pattern>
         </defs>
