@@ -12,7 +12,7 @@ module.exports = {
     mail: `mailto:arghyadeep.k@gmail.com`,
 
     // Content of the About Me section
-    about: `.NET Developer turned DevOps Engineer. Developing CI/CD solutions for a major automobile company in the US. Working on opensource softwares on weekends. Reading books📖 when taking a break from the screen.`,
+    about: `.NET Developer turned DevOps Engineer. Developing CI/CD solutions for an automobile company situated in the US. Working on opensource software on the weekends. Reading books 📖 when taking a break from the screen.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -38,7 +38,7 @@ module.exports = {
     experience: [      
       {
         name: 'Hexaware Technologies Ltd.',
-        description: 'DevOps Engineer, July 2019 - Present',
+        description: 'Sr. DevOps Engineer, July 2019 - Present',
         link: 'https://hexaware.com',
       },
       {
