@@ -12,26 +12,44 @@ module.exports = {
     mail: `mailto:arghyadeep.k@gmail.com`,
 
     // Content of the About Me section
-    about: `.NET Developer turned DevOps Engineer. Developing CI/CD solutions for an automobile company situated in the US. Working on opensource software on the weekends. Reading books 📖 when taking a break from the screen.`,
+    about: `.NET Developer turned DevOps Engineer. Developing CI/CD solutions for an automobile company situated in the US and working on opensource software on the weekends. Reading books 📖 when taking a break from the screen.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Google Sheets Logger',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'A simple Node.js module for logging data in Google Sheets',
+        link: 'https://github.com/arghyadeep-k/google-sheets-logger',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'Async-Get-File',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'A wrapper around download-file package to make it return a promise',
+        link: 'https://github.com/arghyadeep-k/async-get-file',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Vanes',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'A NPM package which helps you to format your strings easily with placeholders. Comes in handy when you are importing the strings from another module',
+        link: 'https://github.com/arghyadeep-k/vanes',
+      },
+      {
+        name: 'OpenCV - Face Crop',
+        description:
+          'NPM package that auto-detects faces in a picture and crops them out',
+        link: 'https://github.com/arghyadeep-k/opencv-facecrop',
+      },
+      {
+        name: 'Caddified-Jenkins-Docker',
+        description:
+          'Docker image of Jenkins with Caddy pre-installed so as to serve it over HTTPS right from the start.',
+        link: 'https://codeberg.org/arghyadeep/caddified-jenkins-docker',
+      },
+      {
+        name: 'Caddified-Code-Server-Docker',
+        description:
+          'Docker image of Code-Server (Remote VSCode) with Caddy pre-installed so as to serve it over HTTPS right from the start.',
+        link: 'https://codeberg.org/arghyadeep/caddified-code-server-docker',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
@@ -52,16 +70,16 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'JavaScript (ES6+), Node.js, Express.js, Python, Groovy, .NET, C#, Java',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'MongoDB, Microsoft SQL Server',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Docker, Kubernetes, Ansible, Terraform, Azure, Amazon Web Services (AWS), CI / CD, Agile / Scrum, Alexa Skill Kit',
       },
     ],
   },
