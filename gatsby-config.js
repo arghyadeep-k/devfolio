@@ -12,7 +12,7 @@ module.exports = {
     mail: `mailto:arghyadeep.k@gmail.com`,
 
     // Content of the About Me section
-    about: `.NET Developer turned DevOps Engineer. Developing CI/CD solutions for an automobile company situated in the US and working on opensource software on the weekends. Reading books 📖 when taking a break from the screen.`,
+    about: `.NET Developer turned DevOps Engineer. Developing CI/CD solutions for an automobile 🚗 company during the day. Fiddling with opensource software at night and during the weekends. Reading books 📖 when taking a break from the screen.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
