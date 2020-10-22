@@ -40,7 +40,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
         <ul className={classes.list}>
           {mastodon && (
             <li className={classes.item}>
-              <a className={classes.link} href={mastodon}>
+              <a className={classes.link} rel="me" href={mastodon}>
                 Mastodon
               </a>
             </li>
