@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://arghya.netlify.app/`,
+    siteUrl: `https://arghyadeep.in`,
     name: 'Arghyadeep Kundu',    
     title: `Arghyadeep - Portfolio`,    
     description: `DevOps Engineer | Opensource Enthusiast & Contributor | Bibliophile`,    
@@ -126,17 +126,23 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-feed`,
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: `ADD YOUR TRACKING ID HERE`, // Optional Google Analytics
+    //   },
+    // },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve:`gatsby-plugin-goatcounter`,
       options: {
-        trackingId: `ADD YOUR TRACKING ID HERE`, // Optional Google Analytics
+        code: 'https://arghyadeep.goatcounter.com',        
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `devfolio`,
-        short_name: `devfolio`,
+        name: `Arghyadeep - Portfolio`,
+        short_name: `arghyadeep`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`, // This color appears on mobile
