@@ -135,7 +135,7 @@ module.exports = {
     {
       resolve:`gatsby-plugin-goatcounter`,
       options: {
-        code: 'https://arghyadeep.goatcounter.com',        
+        code: `arghyadeep`,        
       },
     },
     {
